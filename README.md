@@ -30,13 +30,17 @@ Se recomienda seleccionar el servicio Azure ML cuando se requiere tener un contr
 
 - Desde [ml.azure.com](ml.azure.com) crear un nuevo recurso.
 
-![Crear ML automatizaod](https://github.com/lupitaBI06/IA-en-Azure/blob/main/Imagenes/creaciondelMLAutomatizado.PNG)
+![Crear ML automatizaod](https://github.com/lupitaBI06/IA-en-Azure/blob/main/Imagenes/crearrecursoML.PNG)
+
 - Crear instancia de proceso (Máquina Virtual). 
 
 ![Crear instancia](https://github.com/lupitaBI06/IA-en-Azure/blob/main/Imagenes/crearinstancia.PNG)
-    - En la creación la región se encuentra bloqueada por que en ML las máquinas virtuales deben estar en la misma región. 
-    - Se puede elegir entre CPU y GPU, utilizar GPU cuando se necesite mas procesamiento.
-    - Ya que se tiene creada la máquina virtual se cargan los datos en la sección datos, le damos en crear desde archivos web. En este caso se utilizó una base de datos de un excel al que se puede acceder mediante el siguiente link [https://aka.ms/bike-rentals](https://aka.ms/bike-rentals).
+
+    En la creación la región se encuentra bloqueada por que en ML las máquinas virtuales deben estar en la misma región. 
+    
+    Se puede elegir entre CPU y GPU, utilizar GPU cuando se necesite mas procesamiento.
+    
+    Ya que se tiene creada la máquina virtual se cargan los datos en la sección datos, le damos en crear desde archivos web. En este caso se utilizó una base de datos de un excel al que se puede acceder mediante el siguiente link [https://aka.ms/bike-rentals](https://aka.ms/bike-rentals).
 
 ![seleccionar datos](https://github.com/lupitaBI06/IA-en-Azure/blob/main/Imagenes/databasedatosbasicos.PNG)
 
